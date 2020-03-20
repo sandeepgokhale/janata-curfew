@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.btnBlue {
+  color: blue;
+}
+
+.btnGreen {
+  color: green;
+}
+.btnRed {
+  color: red;
+}
+
+.btnGrey {
+  color: grey;
+}
+
+.centerInput {
+  margin: 0 auto;
+  width: 100px;
+  text-align: left;
+}
