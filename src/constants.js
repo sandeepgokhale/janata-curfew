@@ -26,5 +26,14 @@ export const question = [
     attemptedAnswer: "",
     answeredSubmitted: false,
     answeredRequested: false
+  },
+  {
+    questionNo: "3",
+    question: "4. Who Invented Bulb",
+    options: [["Edison", "E"], ["Sandeep Gokhale", "S"], ["Other", "O"]],
+    answer: "E",
+    attemptedAnswer: "",
+    answeredSubmitted: false,
+    answeredRequested: false
   }
 ];

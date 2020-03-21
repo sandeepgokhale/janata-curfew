@@ -5,8 +5,8 @@ import DisplayQuestions from "./DisplayQuestions";
 export default function App() {
   return (
     <div className="App">
-      <Header message="Janata Curfew" />
-      <h2>Answer the following</h2>
+      <Header message="Janata Curfew - Family Quiz" />
+      <h3>Ready to Challenge yourselves ??</h3>
       <DisplayQuestions />
     </div>
   );

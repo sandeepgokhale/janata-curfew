@@ -10,6 +10,7 @@ const DisplayButtonGroup = ({
   revealAnswer,
   updateAttemptedAnswer
 }) => {
+  console.log("tempRadioSelection" + tempRadioSelection);
   return (
     <>
       <button
@@ -27,9 +28,21 @@ const DisplayButtonGroup = ({
             ? "btn btnGrey"
             : "btn btnBlue"
         }
+        // className={
+        //   questions[questionNo].answeredRequested === true
+        //     ? "btn btnGrey"
+        //     : "btn btnBlue"
+        // }
         disabled={
           questions[questionNo].answeredRequested === true ? true : false
         }
+        // disabled={
+        //   questions[questionNo].answeredRequested === true
+        //     ? true
+        //     : tempRadioSelection === undefined
+        //     ? true
+        //     : false
+        // }
         onClick={() => updateAttemptedAnswer(tempRadioSelection)}
       >
         Submit Answer
