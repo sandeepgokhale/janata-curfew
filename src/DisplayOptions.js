@@ -28,6 +28,9 @@ const DisplayOptions = ({
               onChange={e => {
                 setTempRadioSelection(e.target.value);
               }}
+              disabled={
+                questions[questionNo].answeredRequested === true ? true : false
+              }
               value={value}
               // checked={tempRadioSelection === value ? true : false}
               checked={
