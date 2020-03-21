@@ -12,11 +12,9 @@ export default function App() {
   );
 }
 
-//    attemptedAnswer: "",
-//    answeredCorrectly: false,
-//    answeredRequested: false
-
 const Header = ({ message }) => <h1>{message}</h1>;
+
+// For a later use
 // const Options = ({ message }) => (
 //   <select>
 //     <option> Sports </option>

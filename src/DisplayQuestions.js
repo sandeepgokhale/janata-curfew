@@ -7,9 +7,6 @@ import "./styles.css";
 const DisplayQuestions = () => {
   const [questionNo, setQuestionNo] = React.useState(0);
   const [questions, setQuestions] = React.useState(question);
-  // const [revealAnswer, setRevealAnswer] = React.useState(
-  //   questions[questionNo].answeredRequested
-  // );
   const [attemptedAnswer, setAttemptedAnswer] = React.useState(
     questions[questionNo].attemptedAnswer
   );
@@ -23,14 +20,14 @@ const DisplayQuestions = () => {
     };
 
     // Possible Optimization Oppty.
-    let array2 = questions.map(a => {
+    let newState = questions.map(a => {
       var returnValue = { ...a };
       if (a.questionNo === questionNo.toString()) {
         returnValue = currentQuestion;
       }
       return returnValue;
     });
-    setQuestions(array2);
+    setQuestions(newState);
     setAttemptedAnswer(answer);
   }
 
@@ -40,15 +37,14 @@ const DisplayQuestions = () => {
       answeredRequested: true
     };
 
-    // Possible Optimization Oppty.
-    let array2 = questions.map(a => {
+    let newState = questions.map(a => {
       var returnValue = { ...a };
       if (a.questionNo === questionNo.toString()) {
         returnValue = currentQuestion;
       }
       return returnValue;
     });
-    setQuestions(array2);
+    setQuestions(newState);
   }
 
   const states = {
