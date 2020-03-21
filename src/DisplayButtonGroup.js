@@ -22,15 +22,27 @@ const DisplayButtonGroup = ({
         Previous
       </button>
       <button
-        className="btn btnGreen"
-        style={{ color: "green" }}
+        className={
+          questions[questionNo].answeredRequested === true
+            ? "btn btnGrey"
+            : "btn btnBlue"
+        }
+        disabled={
+          questions[questionNo].answeredRequested === true ? true : false
+        }
         onClick={() => updateAttemptedAnswer(tempRadioSelection)}
       >
         Submit Answer
       </button>
       <button
-        className="btn btnRed"
-        style={{ color: "red" }}
+        className={
+          questions[questionNo].answeredRequested === true
+            ? "btn btnGrey"
+            : "btn btnRed"
+        }
+        disabled={
+          questions[questionNo].answeredRequested === true ? true : false
+        }
         onClick={() => revealAnswer()}
       >
         Show Answer
