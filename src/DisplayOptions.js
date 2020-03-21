@@ -40,9 +40,10 @@ const DisplayOptions = ({
               // checked={getCheckBoxStatus(tempRadioSelection, value)}
             />
             {text}
-            {value === questions[questionNo].answer && revealAnswer && (
-              <span role="img">✔️</span>
-            )}
+            {value === questions[questionNo].answer &&
+              questions[questionNo].answeredRequested && (
+                <span role="img">✔️</span>
+              )}
           </div>
         ))}
       </div>

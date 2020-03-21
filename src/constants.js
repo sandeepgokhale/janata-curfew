@@ -22,7 +22,7 @@ export const question = [
     questionNo: "2",
     question: "3. Who won the ICC ODI World Cup in 2017",
     options: [["3India", "M"], ["Australia", "F"], ["Other", "O"]],
-    answer: "0",
+    answer: "O",
     attemptedAnswer: "",
     answeredSubmitted: false,
     answeredRequested: false

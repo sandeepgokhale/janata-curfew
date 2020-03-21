@@ -10,7 +10,7 @@ const DisplayButtonGroup = ({
   tempRadioSelection,
   setTempRadioSelection,
   setAttemptedAnswer,
-  setRevealAnswer,
+  revealAnswer,
   answerHistory,
   setAnswerHistory,
   updateAttemptedAnswer
@@ -40,7 +40,7 @@ const DisplayButtonGroup = ({
       <button
         className="btn btnRed"
         style={{ color: "red" }}
-        onClick={() => setRevealAnswer(true)}
+        onClick={() => revealAnswer()}
       >
         Show Answer
       </button>
