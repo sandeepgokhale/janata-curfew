@@ -1,19 +1,30 @@
 // Question - JSON Format
-export const questions = [
+export const question = [
   {
+    questionNo: "0",
     question: "1. Who won the ICC ODI World Cup in 2013",
     options: [["India", "M"], ["Australia", "F"], ["Other", "O"]],
-    answer: ["India", "M"],
-    attemptedAnswer: ""
+    answer: "M",
+    attemptedAnswer: "",
+    answeredCorrectly: false,
+    answeredRequested: false
   },
   {
+    questionNo: "1",
     question: "2. Who won the ICC ODI World Cup in 1996",
     options: [["2India", "M"], ["Australia", "F"], ["Other", "O"]],
-    attemptedAnswer: ""
+    answer: "F",
+    attemptedAnswer: "",
+    answeredCorrectly: false,
+    answeredRequested: false
   },
   {
+    questionNo: "2",
     question: "3. Who won the ICC ODI World Cup in 2017",
     options: [["3India", "M"], ["Australia", "F"], ["Other", "O"]],
-    attemptedAnswer: ""
+    answer: "0",
+    attemptedAnswer: "",
+    answeredSubmitted: false,
+    answeredRequested: false
   }
 ];
