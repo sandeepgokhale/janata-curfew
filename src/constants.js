@@ -11,7 +11,7 @@ export const question = [
   },
   {
     questionNo: "1",
-    question: "2. Who won the Footbacll World Cup in 2014 ?",
+    question: "2. Who won the Football World Cup in 2014 ?",
     options: [["France", "M"], ["Germany", "F"], ["Others", "O"]],
     answer: "F",
     attemptedAnswer: "",
