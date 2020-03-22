@@ -114,7 +114,7 @@ export const question = [
   },
   {
     questionNo: "11",
-    question: "11. Who is the first Indian formula one driver?",
+    question: "12. Who is the first Indian formula one driver?",
     options: [
       ["Narain Karthikeyan", "A"],
       [" Sania Nehwal", "B"],
