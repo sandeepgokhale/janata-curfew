@@ -66,5 +66,63 @@ export const question = [
     attemptedAnswer: "",
     answeredSubmitted: false,
     answeredRequested: false
+  },
+  {
+    questionNo: "7",
+    question: "8. Who is the author of the inheritance cycle?",
+    options: [
+      ["JK Rowling", "A"],
+      [" Christopher Paolini", "B"],
+      [" Deepthi BG", "C"]
+    ],
+    answer: "B",
+    attemptedAnswer: "",
+    answeredSubmitted: false,
+    answeredRequested: false
+  },
+  {
+    questionNo: "8",
+    question: "9. Who created the character Modesty Blaise?",
+    options: [
+      ["Stephen King", "A"],
+      [" Peter O Donnell", "B"],
+      [" JK Rowling", "C"]
+    ],
+    answer: "B",
+    attemptedAnswer: "",
+    answeredSubmitted: false,
+    answeredRequested: false
+  },
+  {
+    questionNo: "9",
+    question:
+      "10. The first Football world cup was held in which country in 1930?",
+    options: [["Uruguay", "A"], ["Italy", "B"], ["India", "C"]],
+    answer: "A",
+    attemptedAnswer: "",
+    answeredSubmitted: false,
+    answeredRequested: false
+  },
+  {
+    questionNo: "10",
+    question: "11. Which Indian cricketing legend is also knows as The Wall?",
+    options: [["Rahul Bose", "A"], [" KL Rahul", "B"], ["Rahul Dravid", "C"]],
+    answer: "C",
+    attemptedAnswer: "",
+    answeredSubmitted: false,
+    answeredRequested: false
+  },
+  {
+    questionNo: "11",
+    question: "11. Who is the first Indian formula one driver?",
+    options: [
+      ["Narain Karthikeyan", "A"],
+      [" Sania Nehwal", "B"],
+      [" Karun Chandok", "C"]
+    ],
+    answer: "A",
+    attemptedAnswer: "",
+    answeredSubmitted: false,
+    answeredRequested: false
   }
 ];
