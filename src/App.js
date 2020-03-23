@@ -1,13 +1,25 @@
 import React from "react";
 import "./styles.css";
 import DisplayQuestions from "./DisplayQuestions";
-
+import JumpToQuestion from "./JumpToQuestion";
 export default function App() {
   return (
     <div className="App">
       <Header message="Janata Curfew - Family Quiz" />
       <h3>Ready to Challenge yourselves ??</h3>
-      <DisplayQuestions />
+      <div class="some-page-wrapper">
+        <div class="row">
+          <div class="column">
+            <DisplayQuestions />
+          </div>
+          <div class="column">
+            <JumpToQuestion />
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      {/* <DisplayQuestions /> */}
     </div>
   );
 }
